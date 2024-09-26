@@ -54,3 +54,11 @@ input {
     margin-right: 10px;
     border-style:inherit;
 }
+.btn{
+    border-color: white;
+}
+.btn:hover{
+    background-color:white;
+    border-color:white;
+    color: red;
+}
