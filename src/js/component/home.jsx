@@ -30,7 +30,7 @@ const Home = () => {
 						todoList.map((todoList, index) =>
 						(
 							<li className="list-group-item list-group-item-light d-flex justify-content-between" key={{ index }}>
-								{todoList} <button className="btn btn-outline-danger" onClick={() => borrarTarea(index)}>X</button>
+								{todoList} <button style={{backgroundColor:"transparent", borderColor:"transparent"}} className="btn btn-outline-danger" onClick={() => borrarTarea(index)}>X</button>
 							</li>
 						))
 					)
